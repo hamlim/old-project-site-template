@@ -1,6 +1,7 @@
 {
-  "name": "project-template",
+  "name": "project-site-template",
   "version": "1.0.0",
+  "private": true,
   "main": "index.js",
   "author": "Matthew Hamlin <hamlim@outlook.com> (https://matthamlin.me/)",
   "license": "MIT",
@@ -23,5 +24,10 @@
     "jest": "24.8.0",
     "jest-dom": "3.5.0",
     "parcel-bundler": "1.12.3"
+  },
+  "scripts": {
+    "dev": "parcel index.html",
+    "build": "parcel build index.html",
+    "test": "jest"
   }
 }
